@@ -1,0 +1,13 @@
+{
+    "user": {
+        "email": "",
+        "password": "",
+        "mac": "",
+        "autoLogin": false,
+        "autoRecordPassword": true,
+        "route_name": "",
+        "route_address": "",
+        "route_cipher": "",
+        "route_qos": 0
+    }
+}
