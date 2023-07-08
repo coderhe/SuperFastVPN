@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">星空互联</string>
+    <!-- Strings related to common language -->
+    <string name="and">和</string>
+    <string name="action_settings">Settings</string>
+    <string name="sure">确定</string>
+    <string name="All">全部</string>
+
+    <string name="not_supply">暂未开启</string>
+    <string name="user_not_charge">您不是付费用户，请购买套餐使用</string>
+    <string name="user_not_charge_1">您不是付费用户，请购买套餐后选择线路</string>
+    <string name="exit_login">退出登录</string>
+
+    <string name="auto_login">自动登录</string>
+    <string name="remeber_pwd">记住密码</string>
+
+    <string name="Free_Type">【免费用户】</string>
+    <string name="Time_Type">【限时用户】</string>
+    <string name="Data_Type">【流量用户】</string>
+    <string name="Inner_Type">【内部用户】</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">请输入邮箱账号</string>
+    <string name="prompt_password">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="save_password">保存账号密码</string>
+    <string name="action_sign_in">注册账号</string>
+    <string name="action_forget_password">忘记密码</string>
+    <string name="action_sign_in_short">注册</string>
+    <string name="welcome">欢迎！</string>
+    <string name="invalid_username">非法账号</string>
+    <string name="invalid_password">密码是最长20位的字母或数字</string>
+    <string name="invalid_password_1">密码最长20位</string>
+    <string name="invalid_auth_code">输入邮箱验证码</string>
+    <string name="empty_username">邮箱账号不能为空</string>
+    <string name="invliad_mail_type">不支持您的邮箱类型</string>
+    <string name="empty_password">密码不能为空</string>
+    <string name="invalid_authcode">验证码不正确</string>
+    <string name="login_failed">登录失败</string>
+    <string name="sign_up_failed">注册失败</string>
+    <string name="has_no_username">此邮箱没有注册，请先注册</string>
+    <string name="user_sign_up">用户注册</string>
+    <string name="sign_up">注册</string>
+    <string name="new_user_sign_up">新用户注册</string>
+    <string name="check_read_text">阅读并同意</string>
+    <string name="user_signup_protocol">《用户注册协议》</string>
+    <string name="privacy_protocol">《隐私协议》</string>
+    <string name="please_check_signup_protocol">请勾选注册协议</string>
+
+    <string name="vip">您可是尊贵的VIP，无限使用期间</string>
+    <string name="to_date">到期</string>
+    <string name="remain_data">MB流量</string>
+
+    <string name="is_forget_password">忘记登录密码？</string>
+    <string name="submit">提交</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="forget_password_tip">请输入您的注册邮箱，我们将会把您的密码发送到您的邮箱!</string>
+
+    <string name="connect">连接</string>
+    <string name="onekey_change">一键换ip</string>
+    <string name="disconnect">断开连接</string>
+    <string name="connect_state">连接状态</string>
+
+    <string name="select">选择</string>
+    <string name="select_route">线路选择</string>
+    <string name="select_warning">您当前有线路在连接状态，切换线路需要先断开连接</string>
+    <string name="buy_suit">套餐购买</string>
+    <string name="current_route">当前线路：</string>
+    <string name="default_route">默认线路</string>
+    <string name="no_suit">您还暂时未购买套餐</string>
+
+    <string name="empty"></string>
+    <string name="default_price">¥0</string>
+    <string name="total_money">总计:</string>
+    <string name="wxpay">微信支付</string>
+    <string name="alipay">支付宝支付</string>
+    <string name="right_now_pay">立即支付</string>
+    <string name="not_select_pay_order">请选择您要购买的购买项</string>
+
+    <string name="home">个人中心</string>
+    <string name="membership">独享会员</string>
+    <string name="buy_now">充值续费</string>
+    <string name="suit_last_date">套餐到期时间</string>
+    <string name="suit_last_data">套餐所剩流量</string>
+    <string name="last_minute">剩余时长(分钟)</string>
+    <string name="my_fucntion">我的功能</string>
+    <string name="buy_record">购买记录</string>
+    <string name="coupon">优惠券</string>
+    <string name="settings">设置</string>
+    <string name="web_url">网站</string>
+    <string name="protocol">协议</string>
+    <string name="personal_settings">个人设置</string>
+    <string name="fast_send_packet">快速发包</string>
+    <string name="dns">DNS</string>
+    <string name="full_nat">FULL NAT</string>
+    <string name="full_nat_warning">当前线路不允许设置FULL NAT</string>
+    <string name="agent">代理</string>
+    <string name="route">路由</string>
+    <string name="lan">LAN</string>
+    <string name="wan">WAN</string>
+    <string name="dns_chinese">本地域名劫持</string>
+    <string name="dns_parse">本地域名解析</string>
+    <string name="server_setting">服务器设置</string>
+    <string name="dns_server_1">DNS服务器1</string>
+    <string name="dns_server_2">DNS服务器2</string>
+    <string name="default_dns_address1">缺省:1.1.1.1</string>
+    <string name="default_dns_address2">缺省:8.8.8.8</string>
+    <string name="default_port_1">0~65535, 缺省:8080</string>
+    <string name="default_port_2">0~65535, 缺省:1080</string>
+    <string name="dns_server_address_warning">您输入的DNS服务器地址不符合规范</string>
+    <string name="port_warning_contains_other">您输入的端口号不是纯数字</string>
+    <string name="port_warning">您输入的端口号不符合规范</string>
+    <string name="allow_wan_connect">允许局域网连接</string>
+    <string name="port">端口</string>
+    <string name="global">全局</string>
+
+    <string name="router_ip_invalid">您输入的路由不符合规范</string>
+    <string name="router_ip_not_correct">您输入的IP不符合格式</string>
+    <string name="router_ip_wrong">您输入的IP不是纯数字</string>
+
+    <string name="already_select_global_route">你已选择设置“全局”路由，不能再选其他</string>
+    <string name="already_select_self_define_route">你已选择自定义路由，不能再设置"全局"路由</string>
+    <string name="already_select_region_route">你已选择地区配置，不能再设置"全局"路由</string>
+    <string name="already_select_app">你已选择允许使用流量的App配置，不能再设置"全局"路由</string>
+    <string name="self_define_route">参考设置格式:192.168.0.0/24</string>
+
+    <string name="use_vpn_app">开启分应用代理</string>
+    <string name="bypass_china_ip_address">绕过中国大陆地址(含港澳)</string>
+
+    <string name="use_incoming_data_size">已用下行流量: </string>
+    <string name="use_outgoing_data_size">已用上行流量: </string>
+
+    <string name="incoming_speed">下行速度: </string>
+    <string name="outgoing_speed">上行速度: </string>
+
+    <string name="order_number">订单序号: </string>
+    <string name="order_id">订单编号: </string>
+    <string name="order_price">订单价格: </string>
+    <string name="order_status">订单状态: </string>
+    <string name="order_creation_time">订单时间: </string>
+    <string name="order_status_1">已支付</string>
+    <string name="order_status_0">未支付</string>
+
+    <string name="Success">登录成功</string>
+    <string name="UnknownError">未知错误</string>
+    <string name="ArgumentNullException">参数为空错误</string>
+    <string name="ArgumentOutOfRangeException">参数越界错误</string>
+    <string name="DatabaseAccessException">数据库访问错误</string>
+    <string name="MacIsNullOrEmpty">Mac地址错误</string>
+    <string name="MacAddressNotExists">Mac地址不存在</string>
+    <string name="PasswordIsNullOrEmpty">您输入的密码为空</string>
+    <string name="PasswordAreIllegal">您输入的密码非法</string>
+    <string name="PasswordNotEquals">您输入的密码不正确</string>
+
+    <string name="EmailIsNullOrEmpty">您输入的邮箱为空</string>
+    <string name="EmailAddressIsExists">您输入的邮箱已注册</string>
+    <string name="EmailAddressNotExists">您输入的邮箱不存在</string>
+    <string name="EmailAddressAreIllegal">您输入的邮箱非法</string>
+
+    <string name="ConfigurationError">配置错误</string>
+    <string name="UnableToCreateOrder">无法创建支付菜单</string>
+    <string name="OrderNotExists">您的支付菜单不存在</string>
+    <string name="OrderStatusError">您的支付状态错误</string>
+
+    <string name="NotAllowBuyService">不允许购买服务</string>
+    <string name="GithubAccessException">Github不允许被访问</string>
+    <string name="ActivationCodeNotExists">激活码不存在</string>
+    <string name="IsUseActivationCode">此激活码已被使用</string>
+
+    <string name="NotAllowUseActivationCode">不允许使用激活码</string>
+    <string name="MultipleOnline">您已有客户端在线</string>
+    <string name="SerializationProtocolError">序列化协议错误</string>
+
+    <string name="not_have_coupon">您还暂时没有优惠券</string>
+
+    <string name="connecting">星空互联 is connecting...</string>
+    <string name="connected">星空互联 is connected!</string>
+    <string name="disconnected">星空互联 is disconnected!</string>
+</resources>
