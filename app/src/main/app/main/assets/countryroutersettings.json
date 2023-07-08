@@ -1,0 +1,931 @@
+{
+    "region_routers": [
+        {
+            "Name": "安道尔",
+            "File": "AD.txt"
+        },
+        {
+            "Name": "阿联酋",
+            "File": "AE.txt"
+        },
+        {
+            "Name": "阿富汗",
+            "File": "AF.txt"
+        },
+        {
+            "Name": "安提瓜和巴布达",
+            "File": "AG.txt"
+        },
+        {
+            "Name": "安圭拉",
+            "File": "AI.txt"
+        },
+        {
+            "Name": "阿尔巴尼亚",
+            "File": "AL.txt"
+        },
+        {
+            "Name": "亚美尼亚",
+            "File": "AM.txt"
+        },
+        {
+            "Name": "安哥拉",
+            "File": "AO.txt"
+        },
+        {
+            "Name": "南极洲",
+            "File": "AR.txt"
+        },
+        {
+            "Name": "阿根廷",
+            "File": "AD.txt"
+        },
+        {
+            "Name": "美属萨摩亚",
+            "File": "AS.txt"
+        },
+        {
+            "Name": "奥地利",
+            "File": "AT.txt"
+        },
+        {
+            "Name": "澳大利亚",
+            "File": "AU.txt"
+        },
+        {
+            "Name": "阿鲁巴",
+            "File": "AW.txt"
+        },
+        {
+            "Name": "奥兰",
+            "File": "AX.txt"
+        },
+        {
+            "Name": "阿塞拜疆",
+            "File": "AZ.txt"
+        },
+        {
+            "Name": "波斯尼亚和黑塞哥维那",
+            "File": "BA.txt"
+        },
+        {
+            "Name": "巴巴多斯",
+            "File": "BB.txt"
+        },
+        {
+            "Name": "孟加拉国",
+            "File": "BD.txt"
+        },
+        {
+            "Name": "比利时",
+            "File": "BE.txt"
+        },
+        {
+            "Name": "布基纳法索",
+            "File": "BF.txt"
+        },
+        {
+            "Name": "保加利亚",
+            "File": "BG.txt"
+        },
+        {
+            "Name": "巴林",
+            "File": "BH.txt"
+        },
+        {
+            "Name": "布隆迪",
+            "File": "BI.txt"
+        },
+        {
+            "Name": "贝宁",
+            "File": "BJ.txt"
+        },
+        {
+            "Name": "圣巴泰勒米",
+            "File": "BL.txt"
+        },
+        {
+            "Name": "百慕大",
+            "File": "BM.txt"
+        },
+        {
+            "Name": "文莱",
+            "File": "BN.txt"
+        },
+        {
+            "Name": "玻利维亚",
+            "File": "BO.txt"
+        },
+        {
+            "Name": "荷兰加勒比区",
+            "File": "BQ.txt"
+        },
+        {
+            "Name": "巴西",
+            "File": "BR.txt"
+        },
+        {
+            "Name": "巴哈马",
+            "File": "BS.txt"
+        },
+        {
+            "Name": "不丹",
+            "File": "BT.txt"
+        },
+        {
+            "Name": "博茨瓦纳",
+            "File": "BW.txt"
+        },
+        {
+            "Name": "白俄罗斯",
+            "File": "BY.txt"
+        },
+        {
+            "Name": "伯利兹",
+            "File": "BZ.txt"
+        },
+        {
+            "Name": "加拿大",
+            "File": "CA.txt"
+        },
+        {
+            "Name": "刚果（金）",
+            "File": "CD.txt"
+        },
+        {
+            "Name": "中非",
+            "File": "CF.txt"
+        },
+        {
+            "Name": "刚果（布）",
+            "File": "CG.txt"
+        },
+        {
+            "Name": "瑞士",
+            "File": "CH.txt"
+        },
+        {
+            "Name": "科特迪瓦",
+            "File": "CI.txt"
+        },
+        {
+            "Name": "库克群岛",
+            "File": "CK.txt"
+        },
+        {
+            "Name": "智利",
+            "File": "CL.txt"
+        },
+        {
+            "Name": "喀麦隆",
+            "File": "CM.txt"
+        },
+        {
+            "Name": "中国",
+            "File": "CN.txt"
+        },
+        {
+            "Name": "哥伦比亚",
+            "File": "CO.txt"
+        },
+        {
+            "Name": "哥斯达黎加",
+            "File": "CR.txt"
+        },
+        {
+            "Name": "古巴",
+            "File": "CU.txt"
+        },
+        {
+            "Name": "佛得角",
+            "File": "CV.txt"
+        },
+        {
+            "Name": "库拉索",
+            "File": "CW.txt"
+        },
+        {
+            "Name": "圣诞岛",
+            "File": "CX.txt"
+        },
+        {
+            "Name": "塞浦路斯",
+            "File": "CY.txt"
+        },
+        {
+            "Name": "德国",
+            "File": "DE.txt"
+        },
+        {
+            "Name": "丹麦",
+            "File": "DK.txt"
+        },
+        {
+            "Name": "多米尼克",
+            "File": "DM.txt"
+        },
+        {
+            "Name": "多米尼加",
+            "File": "DO.txt"
+        },
+        {
+            "Name": "阿尔及利亚",
+            "File": "DZ.txt"
+        },
+        {
+            "Name": "厄瓜多尔",
+            "File": "EC.txt"
+        },
+        {
+            "Name": "爱沙尼亚",
+            "File": "EE.txt"
+        },
+        {
+            "Name": "埃及",
+            "File": "EG.txt"
+        },
+        {
+            "Name": "厄立特里亚",
+            "File": "ER.txt"
+        },
+        {
+            "Name": "西班牙",
+            "File": "ES.txt"
+        },
+        {
+            "Name": "埃塞俄比亚",
+            "File": "ET.txt"
+        },
+        {
+            "Name": "芬兰",
+            "File": "FI.txt"
+        },
+        {
+            "Name": "斐济",
+            "File": "FJ.txt"
+        },
+        {
+            "Name": "福克兰群岛",
+            "File": "FK.txt"
+        },
+        {
+            "Name": "密克罗尼西亚联邦",
+            "File": "FM.txt"
+        },
+        {
+            "Name": "法罗群岛",
+            "File": "FO.txt"
+        },
+        {
+            "Name": "法国",
+            "File": "FR.txt"
+        },
+        {
+            "Name": "加蓬",
+            "File": "GA.txt"
+        },
+        {
+            "Name": "英国",
+            "File": "GB.txt"
+        },
+        {
+            "Name": "格林纳达",
+            "File": "GD.txt"
+        },
+        {
+            "Name": "格鲁吉亚",
+            "File": "GE.txt"
+        },
+        {
+            "Name": "法属圭亚那",
+            "File": "GF.txt"
+        },
+        {
+            "Name": "根西",
+            "File": "GG.txt"
+        },
+        {
+            "Name": "加纳",
+            "File": "GH.txt"
+        },
+        {
+            "Name": "直布罗陀",
+            "File": "GI.txt"
+        },
+        {
+            "Name": "格陵兰",
+            "File": "GL.txt"
+        },
+        {
+            "Name": "冈比亚",
+            "File": "GM.txt"
+        },
+        {
+            "Name": "几内亚",
+            "File": "GN.txt"
+        },{
+            "Name": "瓜德罗普",
+            "File": "GP.txt"
+        },{
+            "Name": "赤道几内亚",
+            "File": "GQ.txt"
+        },{
+            "Name": "希腊",
+            "File": "GR.txt"
+        },{
+            "Name": "危地马拉",
+            "File": "GT.txt"
+        },{
+            "Name": "关岛",
+            "File": "GU.txt"
+        },{
+            "Name": "几内亚比绍",
+            "File": "GW.txt"
+        },{
+            "Name": "圭亚那",
+            "File": "GY.txt"
+        },{
+            "Name": "中国香港",
+            "File": "HK.txt"
+        },{
+            "Name": "洪都拉斯",
+            "File": "HN.txt"
+        },{
+            "Name": "克罗地亚",
+            "File": "HR.txt"
+        },{
+            "Name": "海地",
+            "File": "HT.txt"
+        },{
+            "Name": "匈牙利",
+            "File": "HU.txt"
+        },{
+            "Name": "印尼",
+            "File": "ID.txt"
+        },{
+            "Name": "爱尔兰",
+            "File": "IE.txt"
+        },{
+            "Name": "以色列",
+            "File": "IL.txt"
+        },{
+            "Name": "马恩岛",
+            "File": "IM.txt"
+        },{
+            "Name": "印度",
+            "File": "IN.txt"
+        },{
+            "Name": "英属印度洋领地",
+            "File": "IO.txt"
+        },{
+            "Name": "伊拉克",
+            "File": "IQ.txt"
+        },{
+            "Name": "伊朗",
+            "File": "IR.txt"
+        },{
+            "Name": "冰岛",
+            "File": "IS.txt"
+        },{
+            "Name": "意大利",
+            "File": "IT.txt"
+        },{
+            "Name": "泽西",
+            "File": "JE.txt"
+        },{
+            "Name": "牙买加",
+            "File": "JM.txt"
+        },{
+            "Name": "约旦",
+            "File": "JO.txt"
+        },
+        {
+            "Name": "日本",
+            "File": "JP.txt"
+        },
+        {
+            "Name": "肯尼亚",
+            "File": "KE.txt"
+        },
+        {
+            "Name": "吉尔吉斯斯坦",
+            "File": "KG.txt"
+        },
+        {
+            "Name": "柬埔寨",
+            "File": "KH.txt"
+        },
+        {
+            "Name": "基里巴斯",
+            "File": "KI.txt"
+        },
+        {
+            "Name": "科摩罗",
+            "File": "KM.txt"
+        },
+        {
+            "Name": "圣基茨和尼维斯",
+            "File": "KN.txt"
+        },
+        {
+            "Name": "朝鲜",
+            "File": "KP.txt"
+        },
+        {
+            "Name": "韩国",
+            "File": "KR.txt"
+        },
+        {
+            "Name": "科威特",
+            "File": "KW.txt"
+        },
+        {
+            "Name": "开曼群岛",
+            "File": "KY.txt"
+        },
+        {
+            "Name": "哈萨克斯坦",
+            "File": "KZ.txt"
+        },
+        {
+            "Name": "老挝",
+            "File": "LA.txt"
+        },
+        {
+            "Name": "黎巴嫩",
+            "File": "LB.txt"
+        },
+        {
+            "Name": "圣卢西亚",
+            "File": "LC.txt"
+        },
+        {
+            "Name": "列支敦士登",
+            "File": "LI.txt"
+        },
+        {
+            "Name": "斯里兰卡",
+            "File": "LK.txt"
+        },
+        {
+            "Name": "利比里亚",
+            "File": "LR.txt"
+        },
+        {
+            "Name": "莱索托",
+            "File": "LS.txt"
+        },
+        {
+            "Name": "立陶宛",
+            "File": "LT.txt"
+        },
+        {
+            "Name": "卢森堡",
+            "File": "LU.txt"
+        },
+        {
+            "Name": "拉脱维亚",
+            "File": "LV.txt"
+        },
+        {
+            "Name": "利比亚",
+            "File": "LY.txt"
+        },
+        {
+            "Name": "摩洛哥",
+            "File": "MA.txt"
+        },
+        {
+            "Name": "摩纳哥",
+            "File": "MC.txt"
+        },
+        {
+            "Name": "摩尔多瓦",
+            "File": "MD.txt"
+        },
+        {
+            "Name": "黑山",
+            "File": "ME.txt"
+        },
+        {
+            "Name": "法属圣马丁",
+            "File": "MF.txt"
+        },
+        {
+            "Name": "马达加斯加",
+            "File": "MG.txt"
+        },
+        {
+            "Name": "马绍尔群岛",
+            "File": "MH.txt"
+        },
+        {
+            "Name": "北马其顿",
+            "File": "MK.txt"
+        },
+        {
+            "Name": "马里",
+            "File": "ML.txt"
+        },
+        {
+            "Name": "缅甸",
+            "File": "MM.txt"
+        },
+        {
+            "Name": "蒙古国",
+            "File": "MN.txt"
+        },
+        {
+            "Name": "中国澳门",
+            "File": "MO.txt"
+        },
+        {
+            "Name": "北马里亚纳群岛",
+            "File": "MP.txt"
+        },
+        {
+            "Name": "马提尼克",
+            "File": "MQ.txt"
+        },
+        {
+            "Name": "毛里塔尼亚",
+            "File": "MR.txt"
+        },
+        {
+            "Name": "蒙特塞拉特",
+            "File": "MS.txt"
+        },
+        {
+            "Name": "马耳他",
+            "File": "MT.txt"
+        },
+        {
+            "Name": "毛里求斯",
+            "File": "MU.txt"
+        },
+        {
+            "Name": "马尔代夫",
+            "File": "MV.txt"
+        },
+        {
+            "Name": "马拉维",
+            "File": "MW.txt"
+        },
+        {
+            "Name": "墨西哥",
+            "File": "MX.txt"
+        },
+        {
+            "Name": "马来西亚",
+            "File": "MY.txt"
+        },
+        {
+            "Name": "莫桑比克",
+            "File": "MZ.txt"
+        },
+        {
+            "Name": "纳米比亚",
+            "File": "NA.txt"
+        },
+        {
+            "Name": "新喀里多尼亚",
+            "File": "NC.txt"
+        },
+        {
+            "Name": "尼日尔",
+            "File": "NE.txt"
+        },
+        {
+            "Name": "诺福克岛",
+            "File": "NF.txt"
+        },
+        {
+            "Name": "尼日利亚",
+            "File": "NG.txt"
+        },
+        {
+            "Name": "尼加拉瓜",
+            "File": "NI.txt"
+        },
+        {
+            "Name": "荷兰",
+            "File": "NL.txt"
+        },
+        {
+            "Name": "挪威",
+            "File": "NO.txt"
+        },
+        {
+            "Name": "尼泊尔",
+            "File": "NP.txt"
+        },
+        {
+            "Name": "瑙鲁",
+            "File": "NR.txt"
+        },
+        {
+            "Name": "纽埃",
+            "File": "NU.txt"
+        },
+        {
+            "Name": "新西兰",
+            "File": "NZ.txt"
+        },
+        {
+            "Name": "阿曼",
+            "File": "OM.txt"
+        },
+        {
+            "Name": "巴拿马",
+            "File": "PA.txt"
+        },
+        {
+            "Name": "秘鲁",
+            "File": "PE.txt"
+        },
+        {
+            "Name": "法属波利尼西亚",
+            "File": "PF.txt"
+        },
+        {
+            "Name": "巴布亚新几内亚",
+            "File": "PG.txt"
+        },
+        {
+            "Name": "菲律宾",
+            "File": "PH.txt"
+        },
+        {
+            "Name": "巴基斯坦",
+            "File": "PK.txt"
+        },
+        {
+            "Name": "波兰",
+            "File": "PL.txt"
+        },
+        {
+            "Name": "圣皮埃尔和密克隆",
+            "File": "PM.txt"
+        },
+        {
+            "Name": "波多黎各",
+            "File": "PR.txt"
+        },
+        {
+            "Name": "巴勒斯坦",
+            "File": "PS.txt"
+        },
+        {
+            "Name": "葡萄牙",
+            "File": "PT.txt"
+        },
+        {
+            "Name": "帕劳",
+            "File": "PW.txt"
+        },
+        {
+            "Name": "巴拉圭",
+            "File": "PY.txt"
+        },
+        {
+            "Name": "卡塔尔",
+            "File": "QA.txt"
+        },
+        {
+            "Name": "留尼汪",
+            "File": "RE.txt"
+        },
+        {
+            "Name": "罗马尼亚",
+            "File": "RO.txt"
+        },
+        {
+            "Name": "塞尔维亚",
+            "File": "RS.txt"
+        },
+        {
+            "Name": "俄罗斯",
+            "File": "RU.txt"
+        },
+        {
+            "Name": "卢旺达",
+            "File": "RW.txt"
+        },
+        {
+            "Name": "沙特阿拉伯",
+            "File": "SA.txt"
+        },
+        {
+            "Name": "所罗门群岛",
+            "File": "SB.txt"
+        },
+        {
+            "Name": "塞舌尔",
+            "File": "SC.txt"
+        },
+        {
+            "Name": "苏丹",
+            "File": "SD.txt"
+        },
+        {
+            "Name": "瑞典",
+            "File": "SE.txt"
+        },
+        {
+            "Name": "新加坡",
+            "File": "SG.txt"
+        },
+        {
+            "Name": "斯洛文尼亚",
+            "File": "SI.txt"
+        },
+        {
+            "Name": "斯洛伐克",
+            "File": "SK.txt"
+        },
+        {
+            "Name": "塞拉利昂",
+            "File": "SL.txt"
+        },
+        {
+            "Name": "圣马力诺",
+            "File": "SM.txt"
+        },
+        {
+            "Name": "塞内加尔",
+            "File": "SN.txt"
+        },
+        {
+            "Name": "索马里",
+            "File": "SO.txt"
+        },
+        {
+            "Name": "苏里南",
+            "File": "SR.txt"
+        },
+        {
+            "Name": "南苏丹",
+            "File": "SS.txt"
+        },
+        {
+            "Name": "圣多美和普林西比",
+            "File": "ST.txt"
+        },
+        {
+            "Name": "萨尔瓦多",
+            "File": "SV.txt"
+        },
+        {
+            "Name": "圣马丁",
+            "File": "SX.txt"
+        },
+        {
+            "Name": "叙利亚",
+            "File": "SY.txt"
+        },
+        {
+            "Name": "斯威士兰",
+            "File": "SZ.txt"
+        },
+        {
+            "Name": "特克斯和凯科斯群岛",
+            "File": "TC.txt"
+        },
+        {
+            "Name": "乍得",
+            "File": "TD.txt"
+        },
+        {
+            "Name": "多哥",
+            "File": "TG.txt"
+        },
+        {
+            "Name": "泰国",
+            "File": "TH.txt"
+        },
+        {
+            "Name": "塔吉克斯坦",
+            "File": "TJ.txt"
+        },
+        {
+            "Name": "托克劳",
+            "File": "TK.txt"
+        },
+        {
+            "Name": "东帝汶",
+            "File": "TL.txt"
+        },
+        {
+            "Name": "土库曼斯坦",
+            "File": "TM.txt"
+        },
+        {
+            "Name": "突尼斯",
+            "File": "TN.txt"
+        },
+        {
+            "Name": "汤加",
+            "File": "TO.txt"
+        },
+        {
+            "Name": "土耳其",
+            "File": "TR.txt"
+        },
+        {
+            "Name": "特立尼达和多巴哥",
+            "File": "TT.txt"
+        },
+        {
+            "Name": "图瓦卢",
+            "File": "TV.txt"
+        },
+        {
+            "Name": "中国台湾",
+            "File": "TW.txt"
+        },
+        {
+            "Name": "坦桑尼亚",
+            "File": "TZ.txt"
+        },
+        {
+            "Name": "乌克兰",
+            "File": "UA.txt"
+        },
+        {
+            "Name": "乌干达",
+            "File": "UG.txt"
+        },
+        {
+            "Name": "美国",
+            "File": "US.txt"
+        },
+        {
+            "Name": "乌拉圭",
+            "File": "UY.txt"
+        },
+        {
+            "Name": "乌兹别克斯坦",
+            "File": "UZ.txt"
+        },
+        {
+            "Name": "梵蒂冈",
+            "File": "VA.txt"
+        },
+        {
+            "Name": "圣文森特和格林纳丁斯",
+            "File": "VC.txt"
+        },
+        {
+            "Name": "委内瑞拉",
+            "File": "VE.txt"
+        },
+        {
+            "Name": "英属维尔京群岛",
+            "File": "VG.txt"
+        },
+        {
+            "Name": "美属维尔京群岛",
+            "File": "VI.txt"
+        },
+        {
+            "Name": "越南",
+            "File": "VN.txt"
+        },
+        {
+            "Name": "瓦努阿图",
+            "File": "VU.txt"
+        },
+        {
+            "Name": "瓦利斯和富图纳",
+            "File": "WF.txt"
+        },
+        {
+            "Name": "萨摩亚",
+            "File": "WS.txt"
+        },
+        {
+            "Name": "科索沃",
+            "File": "XK.txt"
+        },
+        {
+            "Name": "也门",
+            "File": "YE.txt"
+        },
+        {
+            "Name": "马约特",
+            "File": "YT.txt"
+        },
+        {
+            "Name": "南非",
+            "File": "ZA.txt"
+        },
+        {
+            "Name": "赞比亚",
+            "File": "ZM.txt"
+        },
+        {
+            "Name": "津巴布韦",
+            "File": "ZW.txt"
+        }
+    ]
+}
