@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/touch_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_home_grey_bg"
+        android:layout_gravity="start"
+        android:enabled="false"
+        android:scaleType="centerInside"/>
+
+    <ImageView
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="top"
+        android:layout_marginTop="@dimen/dimen_5"
+        android:src="@mipmap/ic_up_arrow"
+        android:layout_marginLeft="@dimen/dimen_50" />
+
+    <ImageView
+        android:id="@+id/download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/upload"
+        android:layout_marginTop="@dimen/dimen_15"
+        android:src="@mipmap/ic_down_arrow"
+        android:layout_marginLeft="@dimen/dimen_50" />
+
+    <TextView
+        android:id="@+id/upload_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/upload"
+        android:layout_marginTop="@dimen/dimen_1"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="@string/empty"/>
+
+    <TextView
+        android:id="@+id/download_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/download"
+        android:layout_below="@+id/upload"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:text="@string/empty"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/user_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/upload_data"
+        android:layout_below="@+id/upload"
+        android:layout_marginRight="@dimen/dimen_15"
+        android:text="@string/empty"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <TextView
+        android:id="@+id/port_name"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_25"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/dimen_50"
+        android:gravity="center"
+        android:text="@string/port"
+        android:textColor="@color/grey_89"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/port_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/dimen_100"
+        android:hint="@string/default_port_1"
+        android:imeOptions="actionDone"
+        android:textColorHint ="@color/grey_89"
+        android:selectAllOnFocus="true"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:background="@mipmap/ic_dns_frame"
+        android:maxLength="5" />
+
+</RelativeLayout>

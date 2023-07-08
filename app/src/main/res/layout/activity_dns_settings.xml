@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.ppp.ui.home.DnsSettingActivity">
+
+    <ImageView
+        android:id="@+id/bgimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_background"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/topimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_top_bg_login"
+        app:layout_constraintLeft_toLeftOf="@+id/bgimage"
+        app:layout_constraintRight_toRightOf="@+id/bgimage"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/dns_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/dns"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/exitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="@dimen/dimen_25"
+        android:layout_marginLeft="@dimen/dimen_20"
+        android:background="@mipmap/ic_return"
+        android:enabled="false"
+        android:scaleType="centerInside"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/sure_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/dimen_25"
+        android:background="@mipmap/ic_sure_button"
+        android:enabled="false"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hijack_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/dns_chinese"
+        android:textColor="@color/grey_89"
+        android:textSize="18sp"
+        android:layout_marginTop="@dimen/dimen_20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintTop_toBottomOf="@+id/topimage"/>
+
+    <ImageButton
+        android:id="@+id/hijack_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/dimen_20"
+        android:background="@mipmap/ic_switch"
+        android:enabled="false"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topimage" />
+
+    <TextView
+        android:id="@+id/parse_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/dns_parse"
+        android:textColor="@color/grey_89"
+        android:textSize="18sp"
+        android:layout_marginTop="@dimen/dimen_20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintTop_toBottomOf="@+id/hijack_button"/>
+
+    <ImageButton
+        android:id="@+id/parse_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/dimen_20"
+        android:background="@mipmap/ic_switch"
+        android:enabled="false"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hijack_button" />
+
+    <ImageView
+        android:id="@+id/parse_item_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="@dimen/dimen_60"
+        android:src="@mipmap/ic_home_settings_blue_line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hijack_button" />
+
+    <TextView
+        android:id="@+id/server_setting_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/server_setting"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="@dimen/dimen_10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintTop_toBottomOf="@+id/parse_item_bg"/>
+
+    <TextView
+        android:id="@+id/dns_server1_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/dns_server_1"
+        android:textColor="@color/grey_89"
+        android:textSize="18sp"
+        android:layout_marginTop="@dimen/dimen_15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintTop_toBottomOf="@+id/server_setting_text"/>
+
+    <EditText
+        android:id="@+id/dns_server1_edtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_15"
+        android:layout_alignParentRight="true"
+        android:hint="@string/default_dns_address1"
+        android:textColorHint ="@color/grey_89"
+        android:imeOptions="actionDone"
+        android:selectAllOnFocus="true"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:maxLength="15"
+        android:background="@mipmap/ic_dns_frame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintTop_toBottomOf="@+id/server_setting_text" />
+
+    <TextView
+        android:id="@+id/dns_server2_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/dns_server_2"
+        android:textColor="@color/grey_89"
+        android:textSize="18sp"
+        android:layout_marginTop="@dimen/dimen_15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintTop_toBottomOf="@+id/dns_server1_text"/>
+
+    <EditText
+        android:id="@+id/dns_server2_edtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_15"
+        android:layout_alignParentRight="true"
+        android:hint="@string/default_dns_address2"
+        android:textColorHint ="@color/grey_89"
+        android:selectAllOnFocus="true"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:background="@mipmap/ic_dns_frame"
+        android:maxLength="15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintTop_toBottomOf="@+id/dns_server1_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

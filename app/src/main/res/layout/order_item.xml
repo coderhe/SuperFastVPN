@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:id="@+id/order_item">
+
+    <ImageView
+        android:id="@+id/order_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/ic_shop_grey_bg" />
+
+    <TextView
+        android:id="@+id/order_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="@string/empty"/>
+
+    <TextView
+        android:id="@+id/order_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/order_name"
+        android:layout_marginTop="@dimen/dimen_30"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="@string/empty"/>
+
+    <TextView
+        android:id="@+id/order_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/order_price"
+        android:layout_marginTop="@dimen/dimen_55"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="@string/empty"/>
+
+    <TextView
+        android:id="@+id/order_creation_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/order_status"
+        android:layout_marginTop="@dimen/dimen_75"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="@string/empty"/>
+</FrameLayout>

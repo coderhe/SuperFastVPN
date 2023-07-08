@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@mipmap/common_cicle01"
+        android:duration="120"></item>
+    <item
+        android:drawable="@mipmap/common_cicle02"
+        android:duration="120"></item>
+    <item
+        android:drawable="@mipmap/common_cicle03"
+        android:duration="120"></item>
+    <item
+        android:drawable="@mipmap/common_cicle04"
+        android:duration="120"></item>
+
+    <item
+        android:drawable="@mipmap/common_cicle05"
+        android:duration="120"></item>
+    <item
+        android:drawable="@mipmap/common_cicle06"
+        android:duration="120"></item>
+    <item
+        android:drawable="@mipmap/common_cicle07"
+        android:duration="120"></item>
+    <item
+        android:drawable="@mipmap/common_cicle08"
+        android:duration="120"></item>
+
+    <item
+        android:drawable="@mipmap/common_cicle09"
+        android:duration="120"></item>
+    <item
+        android:drawable="@mipmap/common_cicle10"
+        android:duration="120"></item>
+    <item
+        android:drawable="@mipmap/common_cicle11"
+        android:duration="120"></item>
+    <item
+        android:drawable="@mipmap/common_cicle12"
+        android:duration="120"></item>
+
+</animation-list>
