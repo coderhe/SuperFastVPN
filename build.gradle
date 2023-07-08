@@ -1,0 +1,85 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.android.ppp"
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+        ndkVersion '21.3.6528147'
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                cppFlags "-std=c++11"
+            }
+            ndk {
+                ldLibs "log"
+                abiFilters "x86", "x86_64", "arm64-v8a", "armeabi-v7a"
+            }
+        }
+    }
+
+    signingConfigs{
+        config{
+            storeFile file(KEY_PATH)  //keystore的位置
+            storePassword KEY_PASS   //密码
+            keyAlias ALIAS_NAME  //别名
+            keyPassword ALIAT_PASS  //别名密码
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+            jniDebuggable true
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        //ndk-build
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    def core_version = "1.3.2"
+    // Java language implementation
+    implementation "androidx.core:core:$core_version"
+    // Kotlin
+    implementation "androidx.core:core-ktx:$core_version"
+
+    implementation 'com.jaredrummler:android-processes:1.1.1'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.annotation:annotation:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation files('libs/okhttp-3.2.0.jar')
+    implementation files('libs/okio-1.9.0.jar')
+    implementation files('libs/mail.jar')
+    implementation files('libs/additionnal.jar')
+    //implementation files('libs/com.sun.mail:android-mail:1.5.5')
+    implementation files('libs/activation.jar')
+    //implementation 'com.sun.mail:android-activation:1.5.5'
+}
